@@ -3,6 +3,7 @@
  trait_serpentoid_acumen_desc: "§LSerpentoids are naturally equipped with a brilliant intellect.§!\n"
  trait_serpentoid_cunning: "Serpentoid Cunning"
  trait_serpentoid_cunning_desc: "§LSerpentoids can be cunning when they choose to exert themselves; more driven individuals naturally rise to the top.  In addition, their cold-blooded physiology has lead to a compensating natural affinity for energy production.§!\n"
+ serpentoid_system_DESC: "The last surviving colony of the serpentoids. A desert world, once rich, consumed by greed and overbuilding.\n\n$system_initializer_DESC$"
  trait_serpentoid_indolence: "Serpentoid Indolence"
  trait_serpentoid_indolence_desc: "§LSerpentoids have a reputation for laziness, preferring to spend much of their day sunbathing.§!\n"
  s_titanic_life_desc: "An enigmatic species of dimwitted, tame giants resides on this planet. Not fully sentient, these creatures can be easily trained to help in the construction efforts by the locals."
