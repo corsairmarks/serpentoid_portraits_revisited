@@ -1,6 +1,6 @@
 @addl_pop_blockers = 4
 @addl_blockers = 4
-@addl_machine_blockers = 8
+@addl_machine_blockers = 9
 
 # create extra armies for the primitives - they are intentionally much harder than normal to conquer
 create_serpentoid_system_primitive_armies = {
@@ -22,6 +22,7 @@ create_serpentoid_system_primitive_armies = {
 generate_serpentoid_system_capital_blockers = {
 	if = {
 		limit = { owner = { has_origin = origin_post_apocalyptic } }
+		add_deposit = d_city_ruins
 		while = {
 			count = @addl_pop_blockers
 			add_deposit = d_tomb_world_ruins
@@ -98,7 +99,7 @@ generate_serpentoid_system_capital_blockers = {
 			count = @addl_pop_blockers
 			add_deposit = d_decrepit_dwellings
 		}
-		# this adds more blockers than a size 22 relic world can handle, so skip
+		# this adds more blockers than even a size 25 relic world can handle, so skip
 		if = {
 			limit = { owner = { NOT = { has_origin = origin_remnants } } }
 			while = {
@@ -128,13 +129,7 @@ generate_serpentoid_system_capital_blockers = {
 # otherwise, nuke 'em! (this represents wrecking the biosphere while consolidating)
 serpentoid_system_primitives_final_pass = {
 	if = {
-		limit = { solar_system.owner = { NOT = { has_origin = origin_machine } } }
-		owner = {
-			establish_contact = { who = solar_system.owner }
-			establish_communications_no_message = solar_system.owner
-		}
-	}
-	else = {
+		limit = { solar_system.owner = { has_origin = origin_machine } }
 		remove_modifier = underground_network
 		remove_modifier = dreary_planet
 		remove_modifier = s_titanic_life
@@ -149,5 +144,15 @@ serpentoid_system_primitives_final_pass = {
 			add_deposit = d_organic_slurry
 		}
 		set_planet_flag = nuked_planet_anomalies_disabled
+	}
+	else = {
+		owner = {
+			establish_contact = { who = solar_system.owner }
+			establish_communications_no_message = solar_system.owner
+		}
+		if = {
+			limit = { has_origin = origin_remnants }
+			set_planet_size = 25 # this system is designed to have a big planet, so increase to the maximum
+		}
 	}
 }
