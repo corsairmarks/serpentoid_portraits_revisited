@@ -10,7 +10,7 @@ create_serpentoid_system_primitive_armies = {
 		create_army = {
 			name = $NAME|NAME_Primitive_Army$
 			owner = last_created_country
-			species = last_created
+			species = last_created_species
 			type = $TYPE|primitive_army$
 		}
 	}
