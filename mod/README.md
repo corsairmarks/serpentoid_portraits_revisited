@@ -2,7 +2,7 @@
 
 Have you seen the fantastic, animated portraits from Silfae's "Animated Serpentoid Portraits" mod?  Do you wish that the gameplay elements were up-to-date so that you can play the Ancient Technosethi as originally designed?  Then this mod is for you!
 
-There are lots of other mods which contain these portraits, so why should you choose this one?  None of the others update the custom solar system initializer, building, or species trait, but this one does!  Please enjoy my translation of Silfae's custom empire into modern Stellaris.
+There are lots of other mods which contain these portraits, so why should you choose this one?  None of the others update the custom solar system initializer, building, or species traits, but this one does!  Please enjoy my translation of Silfae's custom empire into modern Stellaris.
 
 # Changes
 
@@ -10,14 +10,14 @@ All gameplay features from the original mod are upgraded to be fully compatible 
 
 * Update the namelist to account for all built-in army types, remove obsolete entries
 * Update the custom starting system initializer for 3.0, including all 4 included primitive civilizations and the extra armies to make conquering them more difficult to (re-)conquer
-* Update the static modifers used in the custom starting system
+* Update the static modifers used in the custom starting system (Kheshem)
 * Custom starting intializer now supports a variety of civics and origin starts (all the built-in ones)
-* Split the Serpentoid traint into several, optional traits that are updated for 3.0 (and are available for you to use on your own empires too): Serpentoid Acumen, Serpentoid Cunning, Serpentoid Indolence, and regular Decadence
+* Split the Serpentoid traint into several, optional traits that are updated for 3.0 (and are available for you to use on your own empires too): Serpentoid Acumen, Serpentoid Cunning, and Serpentoid Indolence
 * Update the custom Space Pyramid building that is buildable once per ruler of the Ancient Technosethi custom empire
 
 ## Compatibility
 
-Compatible with any mod that does not add the same portraits, species class, or art assets.
+Compatible with any mod that does not add the same portraits, species class, traits, or art assets.
 
 The Launcher will tell you that some mods are outdated - that is because the dependencies are both out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mods.
 
@@ -48,7 +48,7 @@ This mod overwrites the corresponding species class added by "Silfae's city sets
 
 ## Source Code
 
-Hosted on [GitHub](https://github.com/corsairmarks/romaneagles_portraits_revisited).
+Hosted on [GitHub](https://github.com/corsairmarks/serpentoid_portraits_revisited).
 
 ### Development Notes
 
