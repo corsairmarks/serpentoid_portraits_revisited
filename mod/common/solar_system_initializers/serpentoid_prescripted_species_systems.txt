@@ -55,10 +55,7 @@ serpentoid_system = {
 			flags = { serpentoid_system_primitives }
 			init_effect = {
 				prevent_anomaly = yes
-				add_modifier = {
-					modifier = dreary_planet 
-					days = -1
-				}
+				add_modifier = { modifier = dreary_planet }
 				create_species = {
 					name = "Shagraz"
 					class = REP
@@ -152,10 +149,7 @@ serpentoid_system = {
 			flags = { serpentoid_system_primitives }
 			init_effect = {
 				prevent_anomaly = yes
-				add_modifier = {
-					modifier = s_titanic_life 
-					days = -1
-				}
+				add_modifier = { modifier = s_titanic_life }
 				create_species = {
 					name = "Mutrovch"
 					class = REP
@@ -246,7 +240,7 @@ serpentoid_system = {
 		orbit_angle = 60
 		size = 25
 		has_ring = yes
-		flags = { starting_deposit }
+		flags = { ignore_startup_effect starting_deposit }
 		init_effect = {
 			prevent_anomaly = yes
 			clear_deposits = yes
@@ -258,7 +252,7 @@ serpentoid_system = {
 			orbit_distance = 15
 			size = 11
 			has_ring = no
-			flags = { starting_deposit }
+			flags = { ignore_startup_effect starting_deposit }
 			init_effect = {
 				prevent_anomaly = yes
 				clear_deposits = yes
@@ -271,7 +265,7 @@ serpentoid_system = {
 			orbit_distance = 10
 			size = 6
 			has_ring = no
-			flags = { starting_deposit }
+			flags = { ignore_startup_effect starting_deposit }
 			init_effect = {
 				prevent_anomaly = yes
 				clear_deposits = yes
@@ -292,10 +286,7 @@ serpentoid_system = {
 			init_effect = {
 				prevent_anomaly = yes
 				generate_empire_home_planet = yes
-				add_modifier = {
-					modifier = dreary_planet
-					days = -1
-				}
+				add_modifier = { modifier = dreary_planet }
 			}
 		}
 		moon = {
@@ -307,10 +298,7 @@ serpentoid_system = {
 			flags = { serpentoid_system_primitives }
 			init_effect = {
 				prevent_anomaly = yes
-				add_modifier = {
-   					modifier = dreary_planet 
-  					days = -1
-				}
+				add_modifier = { modifier = dreary_planet }
 				create_species = {
 					name = "Hyporean"
 					class = HUM
@@ -422,10 +410,7 @@ serpentoid_system = {
 		flags = { serpentoid_system_primitives }
 		init_effect = {
 			prevent_anomaly = yes
-			add_modifier = {
-				modifier = underground_network 
-				days = -1
-			}
+			add_modifier = { modifier = underground_network }
 			create_species = {
 				name = "Xoprit"
 				class = ART 
