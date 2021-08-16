@@ -14,12 +14,15 @@ All gameplay features from the original mod are upgraded to be fully compatible 
 * Custom starting initializer now supports a variety of civics and origin starts (all the built-in ones)
 * Split the Serpentoid traint into several, optional traits that are updated for 3.0 (and are available for you to use on your own empires too): Serpentoid Acumen, Serpentoid Cunning, and Serpentoid Indolence
 * Update the custom Space Pyramid building that is buildable once per ruler of the Ancient Technosethi custom empire
+* Allow the Ancient Technosethi to actually select the FE red room during species creation
 
 ## Compatibility
 
 Compatible with any mod that does not add the same portraits, species class, traits, or art assets.
 
 The Launcher will tell you that some mods are outdated - that is because the dependencies are both out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mods.
+
+Because this mod overrides the default criteria for the Fallen Empire red room art, it may be incompatible with other mods that alter the the room to be automatically chosen by empires before or during the game.  This is a minor campatibility issue and can be ignored if you aren't concerned with the exact background diplomacy art used by AI empires.
 
 Not compatible with achievements.
 
