@@ -151,7 +151,7 @@ serpentoid_system_primitives_final_pass = {
 			establish_communications_no_message = solar_system.owner
 		}
 		if = {
-			limit = { has_origin = origin_remnants }
+			limit = { solar_system.owner = { has_origin = origin_remnants } }
 			set_planet_size = 25 # this system is designed to have a big planet, so increase to the maximum
 		}
 	}
