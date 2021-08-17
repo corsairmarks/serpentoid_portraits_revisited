@@ -1,6 +1,6 @@
 # Overview
 
-Have you seen the fantastic, animated portraits from Silfae's "Animated Serpentoid Portraits" mod?  Do you wish that the gameplay elements were up-to-date so that you can play the Ancient Technosethi as originally designed?  Then this mod is for you!
+Have you seen the scaled splendor of Silfae's "Animated Serpentoid Portraits" mod?  Do you wish that the gameplay elements were up-to-date so that you can play the Ancient Technosethi as originally designed?  Then this mod is for you!
 
 There are lots of other mods which contain these portraits, so why should you choose this one?  None of the others update the custom solar system initializer, building, or species traits, but this one does!  Please enjoy my translation of Silfae's custom empire into modern Stellaris.
 
