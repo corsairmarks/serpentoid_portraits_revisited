@@ -9,7 +9,7 @@ There are lots of other mods which contain these portraits, so why should you ch
 All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.0.*, the latest version when this was written.  Updates include:
 
 * Update the namelist to account for all built-in army types, remove obsolete entries
-* Update the custom starting system initializer for 3.0, including all 4 included primitive civilizations and the extra armies to make conquering them more difficult to (re-)conquer
+* Update the custom starting system initializer for 3.0, including all four primitive civilizations and the extra armies to make them more difficult to (re-)conquer
 * Update the static modifers used in the custom starting system (Kheshem)
 * Custom starting initializer now supports a variety of civics and origin starts (all the built-in ones)
 * Split the Serpentoid traint into several, optional traits that are updated for 3.0 (and are available for you to use on your own empires too): Serpentoid Acumen, Serpentoid Cunning, and Serpentoid Indolence
