@@ -46,6 +46,7 @@ This mod overwrites the corresponding species class added by "Silfae's city sets
 
 * 1.0.0 Initial version
 * 1.0.1 Add missing gamestart flag event, fix Origin: Remnants bonus planet size
+* 1.0.2 Allow portrait randomization
 
 ## Source Code
 
