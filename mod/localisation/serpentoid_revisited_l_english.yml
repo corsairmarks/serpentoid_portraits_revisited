@@ -17,3 +17,7 @@
  SRPT_fossil_plural: "$REP_fossil_plural$"
  SRPT_remnant: "$REP_remnant$"
  SRPT_remnant_plural: "$REP_remnant_plural$"
+ industrial_additional_army: "$industrial_army$"
+ industrial_additional_army_desc: "$industrial_army_desc$"
+ postatomic_additional_army: "$postatomic_army$"
+ postatomic_additional_army_desc: "$postatomic_army_desc$"
