@@ -6,14 +6,14 @@ There are lots of other mods which contain these portraits, so why should you ch
 
 [h1]Changes[/h1]
 
-All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.0.*, the latest version when this was written.  Updates include:
+All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.1.*, the latest version when this was written.  Updates include:
 
 [list]
 [*]Update the namelist to account for all built-in army types, remove obsolete entries
-[*]Update the custom starting system initializer for 3.0, including all four primitive civilizations and the extra armies to make them more difficult to (re-)conquer
+[*]Update the custom starting system initializer, including all four primitive civilizations and the extra armies to make them more difficult to (re-)conquer
 [*]Update the static modifers used in the custom starting system (Kheshem)
 [*]Custom starting initializer now supports a variety of civics and origin starts (all the built-in ones)
-[*]Split the Serpentoid traint into several, optional traits that are updated for 3.0 (and are available for you to use on your own empires too): Serpentoid Acumen, Serpentoid Cunning, and Serpentoid Indolence
+[*]Split the Serpentoid traint into several, optional traits that are updated (and are available for you to use on your own empires too): Serpentoid Acumen, Serpentoid Cunning, and Serpentoid Indolence
 [*]Update the custom Space Pyramid building that is buildable once per ruler of the Ancient Technosethi custom empire
 [/list]
 
@@ -23,7 +23,7 @@ Compatible with any mod that does not add the same portraits, species class, tra
 
 The Launcher will tell you that some mods are outdated - that is because the dependencies are both out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mods.
 
-Not compatible with achievements.
+Built for Stellaris version 3.1.* "Lem."  Not compatible with achievements.
 
 [h3]Dependencies[/h3]
 
