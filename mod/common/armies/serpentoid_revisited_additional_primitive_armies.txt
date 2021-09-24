@@ -16,6 +16,6 @@ postatomic_additional_army = {
 	health = 1
 	morale = 1
 	icon = GFX_army_type_primitive
-	use_armynames_from = postatomic_additional_army
+	use_armynames_from = postatomic_army
 	potential = { always = no }
 }
