@@ -1,0 +1,162 @@
+portrait_groups = {
+	serpentoid = {
+		default = serpentoid_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					serpentoid_male_01
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					serpentoid_female_01
+				}
+			}
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				trigger = { NOT = { species_gender = female } }
+				portraits = {
+					serpentoid_male_01
+				}
+			}
+			add = {
+				trigger = { NOT = { species_gender = male } }
+				portraits = {
+					serpentoid_female_01
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = {
+					species = { NOT = { species_gender = male } }
+					NOT = { is_pop_category = ruler }
+				}
+				portraits = {
+					serpentoid_femaleslave_01
+					serpentoid_femaleslave_02
+				}
+			}
+			
+			add = {
+				trigger = {
+					species = { NOT = { species_gender = male } }
+					NOR = {
+						is_pop_category = xeno_ward
+						is_pop_category = pre_sapients
+						is_pop_category = simple_drone
+						is_pop_category = slave
+						is_pop_category = worker
+						is_pop_category = corrupt_drone
+						is_pop_category = criminal
+						is_pop_category = deviant_drone
+					}
+				}
+				portraits = {
+					serpentoid_female_01
+				}
+			}
+			add = {
+				trigger = {
+					species = { NOT = { species_gender = female } }
+					NOT = { is_pop_category = ruler }
+				}
+				portraits = {
+					serpentoid_maleslave_01
+					serpentoid_maleslave_02
+				}
+			}
+			add = {
+				trigger = {
+					species = { NOT = { species_gender = female } }
+					NOR = {
+						is_pop_category = xeno_ward
+						is_pop_category = pre_sapients
+						is_pop_category = simple_drone
+						is_pop_category = slave
+						is_pop_category = worker
+						is_pop_category = corrupt_drone
+						is_pop_category = criminal
+						is_pop_category = deviant_drone
+					}
+				}
+				portraits = {
+					serpentoid_male_01
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governors, envoys
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					serpentoid_female_01
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					serpentoid_male_01
+				}
+			}
+		}
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					serpentoid_female_01
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					serpentoid_male_01
+				}
+			}
+		}
+	}
+}
