@@ -6,7 +6,7 @@ There are lots of other mods which contain these portraits, so why should you ch
 
 # Changes
 
-All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.1.*, the latest version when this was written.  Updates include:
+All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.2, the latest version when this was written.  Updates include:
 
 * Update the namelist to account for all built-in army types, remove obsolete entries
 * Update the custom starting system initializer, including all four primitive civilizations and the extra armies to make them more difficult to (re-)conquer
@@ -14,6 +14,7 @@ All gameplay features from the original mod are upgraded to be fully compatible 
 * Custom starting initializer now supports a variety of civics and origin starts (all the built-in ones)
 * Split the Serpentoid traint into several, optional traits that are updated (and are available for you to use on your own empires too): Serpentoid Acumen, Serpentoid Cunning, and Serpentoid Indolence
 * Update the custom Space Pyramid building that is buildable once per ruler of the Ancient Technosethi custom empire
+* Support being able to choose a single-gender species (new in Stellaris 3.2)
 
 ## Compatibility
 
@@ -21,7 +22,7 @@ Compatible with any mod that does not add the same portraits, species class, tra
 
 The Launcher will tell you that some mods are outdated - that is because the dependencies are both out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mods.
 
-Built for Stellaris version 3.1.* "Lem."  Not compatible with achievements.
+Built for Stellaris version 3.2.* "Herbert."  Not compatible with achievements.
 
 ### Dependencies
 
@@ -48,10 +49,13 @@ This mod overwrites the corresponding species class added by "Silfae's city sets
 * 1.0.1 Add missing gamestart flag event, fix Origin: Remnants bonus planet size
 * 1.0.2 Allow portrait randomization
 * 1.0.3 Ensure correct `graphical_culture`
-* 1.1.0 Mark as compatible with Stellaris version 3.1.* "Lem"
+* 1.1.0 Update for compatibility with Stellaris version 3.1 "Lem"
     * Add new localisation keys introduced in 3.1
     * Use "additional" non-Pop-spawned defensive armies, similar to the change for Necrophages in 3.1
     * Use a better trigger for the space pyramid
+* 2.0.0 Update for compatibility with Stellaris version 3.2 "Herbert"
+    * Apply new mono-gender portrait rules
+    * Apply some pop strata rules to the portraits as well
 
 ## Source Code
 
