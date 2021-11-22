@@ -115,6 +115,7 @@ generate_serpentoid_system_capital_blockers = {
 			owner = {
 				OR = {
 					has_origin = origin_life_seeded
+					has_origin = origin_ocean_paradise
 					has_origin = origin_remnants
 					has_origin = origin_machine
 				}
