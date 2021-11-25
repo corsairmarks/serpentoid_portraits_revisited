@@ -6,13 +6,13 @@ There are lots of other mods which contain these portraits, so why should you ch
 
 # Changes
 
-All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.2, the latest version when this was written.  Updates include:
+All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.2 "Herbert," the latest version when this was written.  Updates include:
 
 * Update the namelist to account for all built-in army types, remove obsolete entries
 * Update the custom starting system initializer, including all four primitive civilizations and the extra armies to make them more difficult to (re-)conquer
-* Update the static modifers used in the custom starting system (Kheshem)
+* Update the static modifiers used in the custom starting system (Kheshem)
 * Custom starting initializer now supports a variety of civics and origin starts (all the built-in ones)
-* Split the Serpentoid traint into several, optional traits that are updated (and are available for you to use on your own empires too): Serpentoid Acumen, Serpentoid Cunning, and Serpentoid Indolence
+* Split the Serpentoid trait into several, optional traits that are updated (and are available for you to use on your own Serpentoid or Reptilian empires too): Serpentoid Acumen, Serpentoid Cunning, and Serpentoid Indolence
 * Update the custom Space Pyramid building that is buildable once per ruler of the Ancient Technosethi custom empire
 * Support being able to choose a single-gender species (new in Stellaris 3.2)
 * Automatically choose clothing based on Pop jobs and choose phenotype based on pop strata
@@ -58,6 +58,7 @@ This mod overwrites the corresponding species class added by "Silfae's city sets
     * Apply new mono-gender portrait rules
     * Apply some pop strata rules to the portraits as well
     * Add clothing selector rules based on jobs
+    * Serpentoid traits are now restricted to the Serpentoid species class, as intended by the original author, as well as Reptilians
 
 ## Source Code
 
