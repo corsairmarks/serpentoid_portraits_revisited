@@ -1,7 +1,5 @@
-# serpentoids use the same clothing regardless of gender - I decided to dupe the file
-# rather than override the original portrait definition to point them at the same
-# clothing selector
-serpentoid_male_clothes_01 = {
+# serpentoids use the same clothing regardless of gender
+serpentoid_clothes_01 = {
 	default = "gfx/models/portraits/serpentoid/serpentoid_outfit_ruler.dds"
 
 	game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
