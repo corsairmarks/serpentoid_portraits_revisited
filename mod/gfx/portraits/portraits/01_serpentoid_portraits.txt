@@ -44,7 +44,6 @@ portrait_groups = {
 					serpentoid_femaleslave_02
 				}
 			}
-
 			add = {
 				trigger = {
 					species = { NOT = { species_gender = male } }
