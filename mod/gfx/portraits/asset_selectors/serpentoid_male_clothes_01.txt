@@ -89,6 +89,7 @@ serpentoid_male_clothes_01 = {
 				has_job = fe_archivist
 				has_job = primitive_researcher
 				has_job = primitive_researcher_2
+				has_job = healthcare
 			}
 		}
 		random = {
@@ -111,6 +112,7 @@ serpentoid_male_clothes_01 = {
 					has_job = death_chronicler
 					has_job = primitive_researcher
 					has_job = primitive_researcher_2
+					has_job = healthcare
 					# military
 					has_job = duelist
 					has_job = enforcer
@@ -149,6 +151,8 @@ serpentoid_male_clothes_01 = {
 					# military
 					has_job = patrol_drone
 					has_job = fe_protector
+					# peasant
+					has_job = fe_xeno_ward
 				}
 			}
 			list = {
@@ -171,16 +175,13 @@ serpentoid_male_clothes_01 = {
 					is_pop_category = purge
 					is_pop_category = simple_drone
 					is_pop_category = slave
+					is_pop_category = xeno_ward
 				}
 				NOR = {
 					# admin
 					has_job = preacher
 					has_job = mortal_initiate
 					# military
-					has_job = duelist
-					has_job = enforcer
-					has_job = telepath
-					has_job = necromancer
 					has_job = soldier
 					has_job = titan_hunter
 					has_job = warrior_drone
