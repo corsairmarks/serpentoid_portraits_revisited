@@ -34,7 +34,7 @@ generate_serpentoid_system_capital_blockers = {
 	else_if = {
 		limit = {
 			owner = {
-				has_civic = civic_machine_terminator
+				has_valid_civic = civic_machine_terminator
 				NOT = { has_origin = origin_machine }
 			}
 		}
@@ -45,7 +45,7 @@ generate_serpentoid_system_capital_blockers = {
 		}
 	}
 	else_if = {
-		limit = { owner = { has_civic = civic_machine_servitor } }
+		limit = { owner = { has_valid_civic = civic_machine_servitor } }
 		while = {
 			count = @addl_pop_blockers
 			add_deposit = d_unsupervised_settlement
@@ -58,7 +58,7 @@ generate_serpentoid_system_capital_blockers = {
 	else_if = {
 		limit = {
 			owner = {
-				has_civic = civic_machine_assimilator
+				has_valid_civic = civic_machine_assimilator
 				NOT = { has_origin = origin_machine }
 			}
 		}
@@ -144,7 +144,7 @@ serpentoid_system_primitives_final_pass = {
 		remove_all_armies = yes
 		remove_all_buildings = yes
 		if = {
-			limit = { solar_system.owner = { has_civic = civic_machine_assimilator } }
+			limit = { solar_system.owner = { has_valid_civic = civic_machine_assimilator } }
 			add_deposit = d_organic_slurry
 		}
 		set_planet_flag = nuked_planet_anomalies_disabled
