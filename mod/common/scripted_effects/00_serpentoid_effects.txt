@@ -71,7 +71,7 @@ generate_serpentoid_system_capital_blockers = {
 	else_if = {
 		limit = {
 			owner = {
-				has_authority = auth_machine_intelligence
+				is_machine_empire = yes
 				NOT = { has_origin = origin_machine }
 			}
 		}
@@ -82,7 +82,7 @@ generate_serpentoid_system_capital_blockers = {
 		}
 	}
 	else_if = {
-		limit = { owner = { has_authority = auth_hive_mind } }
+		limit = { owner = { is_hive_empire = yes } }
 		while = {
 			count = @addl_pop_blockers
 			add_deposit = d_collapsed_burrows
