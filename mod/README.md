@@ -59,6 +59,7 @@ This mod overwrites the corresponding species class added by "Silfae's city sets
     * Apply some pop strata rules to the portraits as well
     * Add clothing selector rules based on jobs
     * Serpentoid traits are now restricted to the Serpentoid species class, as intended by the original author, as well as Reptilians
+* 2.0.1 Adjust code to refer to only valid civics
 
 ## Source Code
 
