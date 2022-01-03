@@ -61,6 +61,7 @@ This mod overwrites the corresponding species class added by "Silfae's city sets
     * Serpentoid traits are now restricted to the Serpentoid species class, as intended by the original author, as well as Reptilians
 * 2.0.1 Adjust code to refer to only valid civics
 * 2.0.2 Portrait selectors based on job category, not pop category - my goal is for the Pop portraits to be based on the job, not the Pop's stratum
+* 2.0.3 No longer ignore portrait duplication for the pre-scripted empire
 
 ## Source Code
 
