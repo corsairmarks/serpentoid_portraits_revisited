@@ -15,7 +15,7 @@ All gameplay features from the original mod are upgraded to be fully compatible 
 * Split the Serpentoid trait into several, optional traits that are updated (and are available for you to use on your own Serpentoid or Reptilian empires too): Serpentoid Acumen, Serpentoid Cunning, and Serpentoid Indolence
 * Update the custom Space Pyramid building that is buildable once per ruler of the Ancient Technosethi custom empire
 * Support being able to choose a single-gender species (new in Stellaris 3.2)
-* Automatically choose clothing based on Pop jobs and choose phenotype based on pop strata
+* Automatically choose clothing based on Pop jobs and choose phenotype based on job stratum
 
 ## Compatibility
 
@@ -56,10 +56,11 @@ This mod overwrites the corresponding species class added by "Silfae's city sets
     * Use a better trigger for the space pyramid
 * 2.0.0 Update for compatibility with Stellaris version 3.2 "Herbert"
     * Apply new mono-gender portrait rules
-    * Apply some pop strata rules to the portraits as well
+    * Apply some rules for pop strata to the portraits as well
     * Add clothing selector rules based on jobs
     * Serpentoid traits are now restricted to the Serpentoid species class, as intended by the original author, as well as Reptilians
 * 2.0.1 Adjust code to refer to only valid civics
+* 2.0.2 Portrait selectors based on job category, not pop category - my goal is for the Pop portraits to be based on the job, not the Pop's stratum
 
 ## Source Code
 
