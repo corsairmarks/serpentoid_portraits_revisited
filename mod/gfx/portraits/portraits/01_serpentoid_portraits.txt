@@ -105,6 +105,7 @@ portrait_groups = {
 		pop = { #for a specific pop
 			add = {
 				trigger = {
+					exists = species
 					species = { NOT = { species_gender = male } }
 					NOT = { has_job_category = ruler }
 				}
@@ -115,6 +116,7 @@ portrait_groups = {
 			}
 			add = {
 				trigger = {
+					exists = species
 					species = { NOT = { species_gender = male } }
 					NOR = {
 						has_job_category = xeno_ward
@@ -133,6 +135,7 @@ portrait_groups = {
 			}
 			add = {
 				trigger = {
+					exists = species
 					species = { NOT = { species_gender = female } }
 					NOT = { has_job_category = ruler }
 				}
@@ -143,6 +146,7 @@ portrait_groups = {
 			}
 			add = {
 				trigger = {
+					exists = species
 					species = { NOT = { species_gender = female } }
 					NOR = {
 						has_job_category = xeno_ward
