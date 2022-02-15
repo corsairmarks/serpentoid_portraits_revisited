@@ -4,7 +4,7 @@ Have you seen the scaled splendor of Silfae's "Animated Serpentoid Portraits" mo
 There are lots of other mods which contain these portraits, so why should you choose this one?  None of the others update the custom solar system initializer, building, or species traits, but this one does!  Please enjoy my translation of Silfae's custom empire into modern Stellaris.
 
 [h1]Changes[/h1]
-All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.2 "Herbert," the latest version when this was written.  Updates include:
+All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.3 "Libra," the latest version when this was written.  Updates include:
 [list]
 [*]Update the namelist to account for all built-in army types, remove obsolete entries
 [*]Update the custom starting system initializer, including all four primitive civilizations and the extra armies to make them more difficult to (re-)conquer
@@ -20,7 +20,7 @@ Compatible with any mod that does not add the same portraits, species class, tra
 
 The Launcher will tell you that some mods are outdated - that is because the dependencies are both out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mods.
 
-Built for Stellaris version 3.2.* "Herbert."  Not compatible with achievements.
+Built for Stellaris version 3.3 "Libra."  Not compatible with achievements.
 
 [h3]Dependencies[/h3]
 In order for this mod to function, you [b]must[/b] install these two mods and load them before this one:
