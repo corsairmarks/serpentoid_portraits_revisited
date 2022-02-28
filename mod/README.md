@@ -47,7 +47,7 @@ This mod overwrites the corresponding species class added by "Silfae's city sets
 ## Changelog
 
 * 1.0.0 Initial version
-* 1.0.1 Add missing gamestart flag event, fix Origin: Remnants bonus planet size
+* 1.0.1 Add missing game start flag event, fix Origin: Remnants bonus planet size
 * 1.0.2 Allow portrait randomization
 * 1.0.3 Ensure correct `graphical_culture`
 * 1.1.0 Update for compatibility with Stellaris version 3.1 "Lem"
@@ -62,7 +62,11 @@ This mod overwrites the corresponding species class added by "Silfae's city sets
 * 2.0.1 Adjust code to refer to only valid civics
 * 2.0.2 Portrait selectors based on job category, not pop category - my goal is for the Pop portraits to be based on the job, not the Pop's stratum
 * 2.0.3 No longer ignore portrait duplication for the pre-scripted empire
-* 2.1.0 Update for compatibility with Stellaris version 3.3 "Libra"
+* 3.0.0 Update for compatibility with Stellaris version 3.3 "Libra"
+    * Integrate base game script changes
+    * Use a shared set of triggers for job-based clothing
+    * Add pre-sapient serpentoid species class
+    * Ensure that pre-sapient serpentoids can't have jewelry or fancy hair
 
 ## Source Code
 
