@@ -24,6 +24,8 @@
  industrial_additional_army_desc: "$industrial_army_desc$"
  postatomic_additional_army: "$postatomic_army$"
  postatomic_additional_army_desc: "$postatomic_army_desc$"
+ not_already_constructing_space_pyramid: "§RThere is already an $building_space_pyramid$ under construction in our empire.§!"
+ ruler_not_already_built_space_pyramid: "§RAn $building_space_pyramid$ has already been constructed as to monument to the reign of [Owner.GetRulerName]. Perhaps the next [Owner.GetRulerTitle] will desire their own monument...§!"
  # prescripted empire
  PRESCRIPTED_ship_prefix_serpentoids1: "Ipn"
  PRESCRIPTED_adjective_serpentoids1: "Sethian"
