@@ -71,6 +71,7 @@ This mod overwrites the corresponding species class added by "Silfae's city sets
     * Update shared triggers
     * Add slave cost for the custom traits
     * All static text moved to localisation (name lists, species random names, prescripted empire, custom starting system)
+    * Better feedback test for the Astral Pyramid
 
 ## Source Code
 
