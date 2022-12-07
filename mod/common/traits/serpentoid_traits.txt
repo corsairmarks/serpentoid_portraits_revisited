@@ -94,11 +94,11 @@ trait_serpentoid_indolence = {
 	}
 	assembly_score = {
 		modifier = {
-			add = 0.5
+			subtract = 0.5
 			from = { has_farming_designation = yes }
 		}
 		modifier = {
-			add = 0.125
+			subtract = 0.125
 			from = { has_rural_designation = yes }
 		}
 	}
