@@ -6,7 +6,7 @@ There are lots of other mods which contain these portraits, so why should you ch
 
 # Changes
 
-All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.4 "Cepheus," the latest version when this was written.  Updates include:
+All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.6 "Orion," the latest version when this was written.  Updates include:
 
 * Update the namelist to account for all built-in army types, remove obsolete entries
 * Update the custom starting system initializer, including all four primitive civilizations and the extra armies to make them more difficult to (re-)conquer
@@ -23,7 +23,7 @@ Compatible with any mod that does not add the same portraits, species class, tra
 
 The Launcher will tell you that some mods are outdated - that is because the dependencies are both out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mods.
 
-Built for Stellaris version 3.4 "Cepheus."  Not compatible with achievements.
+Built for Stellaris version 3.6 "Orion."  Not compatible with achievements.
 
 ### Dependencies
 
@@ -41,7 +41,7 @@ This mod should be added before the game has started.  If you remove it from a g
 This mod overwrites the corresponding species class added by "Silfae's city sets updated" so that it will not be available for use.  Instead, the original species class from Silfae (with localisation) is used.  Expect to see one line in error.log like this:
 
 ```
-[23:27:00][game_singleobjectdatabase.h:147]: Object with key: Silfae-Serpentoid already exists, using the one at  file: common/species_classes/zz_silfae_cities_serpentoid_exclude.txt line: 2
+[23:27:00][game_singleobjectdatabase.h:165]: Object with key: Silfae-Serpentoid already exists, using the one at  file: common/species_classes/zz_silfae_cities_serpentoid_exclude.txt line: 2
 ```
 
 ## Changelog
@@ -72,6 +72,9 @@ This mod overwrites the corresponding species class added by "Silfae's city sets
     * Add slave cost for the custom traits
     * All static text moved to localisation (name lists, species random names, prescripted empire, custom starting system)
     * Better feedback test for the Astral Pyramid
+* 5.0.0 Update for Stellaris version 3.6 "Orion" (and changes from version 3.5 "Fornax")
+    * Minor namelist updates
+    * Update `hair` to `attachment`
 
 ## Source Code
 
