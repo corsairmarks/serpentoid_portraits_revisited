@@ -76,6 +76,7 @@ This mod overwrites the corresponding species class added by "Silfae's city sets
     * Minor namelist updates
     * Update `hair` to `attachment`
     * Ensure Serpentoid attachments are named "Hairstyle"
+    * Update custom traits to follow new gene-modding rules and also be weighted for assembly chance
 
 ## Source Code
 
