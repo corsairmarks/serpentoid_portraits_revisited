@@ -77,6 +77,12 @@ This mod overwrites the corresponding species class added by "Silfae's city sets
     * Update `hair` to `attachment`
     * Ensure Serpentoid attachments are named "Hairstyle"
     * Update custom traits to follow new gene-modding rules and also be weighted for assembly chance
+* 6.0.0 Update for Stellaris version 3.7 "Canis Minor"
+    * Update shared triggers for Pop portraits
+    * Update custom starting system with underlying changes to pre-FTL civilizations
+    * Update modifiers and species traits to have more meaningful values
+    * Remove global flag
+    * Add compatibility trigger `has_serpentoid_portraits_revisited_active`
 
 ## Source Code
 
