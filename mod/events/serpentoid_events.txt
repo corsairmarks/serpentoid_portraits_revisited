@@ -17,11 +17,11 @@ planet_event = {
 		solar_system = {
 			every_system_planet = {
 				limit = {
-					has_planet_flag = serpentoid_system_primitives
+					has_planet_flag = serpentoid_system_pre_ftls
 					has_owner = yes
-					owner = { is_country_type = primitive }
+					owner = { is_primitive = yes }
 				}
-				serpentoid_system_primitives_final_pass = yes
+				serpentoid_system_pre_ftls_final_pass = yes
 			}
 		}
 	}
