@@ -6,7 +6,7 @@ There are lots of other mods which contain these portraits, so why should you ch
 
 # Changes
 
-All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.6 "Orion," the latest version when this was written.  Updates include:
+All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.8 "Gemini," the latest version when this was written.  Updates include:
 
 * Update the namelist to account for all built-in army types, remove obsolete entries
 * Update the custom starting system initializer, including all four primitive civilizations and the extra armies to make them more difficult to (re-)conquer
@@ -14,16 +14,17 @@ All gameplay features from the original mod are upgraded to be fully compatible 
 * Custom starting initializer now supports a variety of civics and origin starts (all the built-in ones)
 * Split the Serpentoid trait into several, optional traits that are updated (and are available for you to use on your own Serpentoid or Reptilian empires too): Serpentoid Acumen, Serpentoid Cunning, and Serpentoid Indolence
 * Update the custom Space Pyramid building that is buildable once per ruler of the Ancient Technosethi custom empire
-* Support being able to choose a single-gender species (new in Stellaris 3.2)
+* The Serpentoids are part of the Reptilian species class (since Stellaris 3.8)
+* Support being able to choose a single-gender species (since Stellaris 3.2)
 * Automatically choose clothing based on Pop jobs and choose phenotype based on job stratum
 
 ## Compatibility
 
-Compatible with any mod that does not add the same portraits, species class, traits, or art assets.
+Compatible with any mod that does not add the same portraits, traits, or art assets.
 
 The Launcher will tell you that some mods are outdated - that is because the dependencies are both out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mods.
 
-Built for Stellaris version 3.6 "Orion."  Not compatible with achievements.
+Built for Stellaris version 3.7 "Gemini."  Not compatible with achievements.
 
 ### Dependencies
 
@@ -38,7 +39,7 @@ This mod should be added before the game has started.  If you remove it from a g
 
 ## Known Issues
 
-This mod overwrites the corresponding species class added by "Silfae's city sets updated" so that it will not be available for use.  Instead, the original species class from Silfae (with localisation) is used.  Expect to see one line in error.log like this:
+This mod overwrites the corresponding species class added by "Silfae's city sets updated" so that it will not be available for use.  Expect to see one line in error.log like this:
 
 ```
 [23:27:00][game_singleobjectdatabase.h:165]: Object with key: Silfae-Serpentoid already exists, using the one at  file: common/species_classes/zz_silfae_cities_serpentoid_exclude.txt line: 2
@@ -83,6 +84,10 @@ This mod overwrites the corresponding species class added by "Silfae's city sets
     * Update modifiers and species traits to have more meaningful values
     * Remove global flag
     * Add compatibility trigger `has_serpentoid_portraits_revisited_active`
+* 7.0.0 Update for Stellaris version 3.8 "Gemini"
+    * Serpentoids are now part of the Reptilian species class (thanks to changes by Paradox, this is no longer mod-unfriendly)
+    * Update prescripted empire to use the new prescripted ruler class and trait system
+    * Update shared triggers
 
 ## Source Code
 
