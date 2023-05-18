@@ -53,9 +53,8 @@ serpentoids1 = {
 		ruler_title_female = RT_SRPT_HIGH_PITONESS
 		heir_title = RT_HIGH_PRIEST
 		heir_title_female = RT_HIGH_PRIESTESS
-		leader_class = ruler
-		trait = trait_ruler_frontier_spirit
-		trait = trait_ruler_expansionist
+		leader_class = governor
+		trait = trait_ruler_frontier_spirit # TODO
 	}
 	spawn_enabled = yes
 	ignore_portrait_duplication = no
