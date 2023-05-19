@@ -88,6 +88,7 @@ This mod overwrites the corresponding species class added by "Silfae's city sets
     * Serpentoids are now part of the Reptilian species class (thanks to changes by Paradox, this is no longer mod-unfriendly)
     * Update prescripted empire to use the new prescripted ruler class and trait system
     * Update shared triggers
+    * During empire creation, serpentoid portraits are split into proper phenotypes (the difference are makeup, armbands, and a choker for females) and outfits are sorted as intended
 
 ## Source Code
 
